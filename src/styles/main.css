@@ -26,6 +26,16 @@ justify-content: center;
 text-align: center;
 }
 
+.todo-form input {
+  padding: 2px 2px;
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+.checkbox-item input {
+  font-size: 16px;
+}
+
 .card {
 display: grid;
 justify-content: center;

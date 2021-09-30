@@ -29,17 +29,19 @@ export default function Form({ onSubmit }) {
   }
 
   return (
-    <div>
+    <div className="todo-form">
       <h3>Add a new todo:</h3>
+      <div>
         <input
           type="text"
           placeholder="Item Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <button className="button-main" type="button" onClick={handleSubmit}>
-          Add item
-        </button>
+      </div>
+      <button className="button-main" type="button" onClick={handleSubmit}>
+        Add item
+      </button>
     </div>
   );
 }
