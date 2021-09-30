@@ -18,7 +18,7 @@ export default function NormalScreen({ items, setItems }) {
 
   return (
     <div className="main-page">
-      <h1>My shopping list</h1>
+      <h1>My todo list</h1>
       <Sorter items={items} setItems={setItems} />
       <TodoList items={items} setItems={setItems} />
       <ButtonAddItem items={items} setItems={setItems} />

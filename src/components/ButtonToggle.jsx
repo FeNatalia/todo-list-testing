@@ -6,8 +6,8 @@ export default function ButtonToggle({toggleCompletedList, onClick}){
             onClick={onClick}
           >
             {toggleCompletedList === false
-              ? "View completed items"
-              : "Hide completed items"}
+              ? "View completed todos"
+              : "Hide completed todos"}
           </button>
         </div>
     )

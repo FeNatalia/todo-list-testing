@@ -1,5 +1,5 @@
 // Project files
-import Photo from "../assets/images/couch.jpg";
+import Photo from "../assets/images/todoPhoto.jpg";
 import ButtonAddItem from "../components/ButtonAddItem";
 
 export default function Instructions({ items, setItems }) {

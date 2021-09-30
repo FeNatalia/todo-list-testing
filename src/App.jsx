@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Logo from "./assets/images/logo.jpg";
 import Instructions from "./screens/Instructions";
 import NormalScreen from "./screens/NormalScreen";
+import "./styles/styles.css";
 
 export default function App() {
   // Local State
