@@ -3,7 +3,7 @@ export default function TodoItem({ item, markAsDone }) {
     return (
       <div className={isDone === false ? "items" : "completed-items"}>
         {isDone === false && (
-          <div>
+          <div className="checkbox-item">
             <input type="checkbox" onChange={() => markAsDone(id)} />
           </div>
         )}
