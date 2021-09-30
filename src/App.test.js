@@ -1,8 +1,15 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("renders learn react link", () => {
+test("Expected to show the instructions screen if the todo list is empty", () => {
+  // Arrange
+  const data = [];
+
+  Storage.prototype.getItem = jest.fn(() => JSON.stringify(data));
+
   render(<App />);
-  const linkElement = screen.getByText(/todo list/i);
-  expect(linkElement).toBeInTheDocument();
+
+  // Act
+  const textElement = screen.getByText(/welcome to todoapp/i);
+  expect(textElement).toBeInTheDocument();
 });
