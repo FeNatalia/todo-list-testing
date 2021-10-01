@@ -48,9 +48,9 @@ p {
 }
 
 .button-secondary {
-    margin: var(--space-medium);
-    text-decoration: underline;
-    font-size: 16px;
-    background-color: white;
-    border: white;
+  margin: var(--space-medium);
+  text-decoration: underline;
+  font-size: 16px;
+  background-color: white;
+  border: white;
 }
