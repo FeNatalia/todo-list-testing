@@ -47,19 +47,14 @@
 }
 
 .card-upper img {
-  box-sizing: border-box;
   width: 250px;
-  height: 178;
+  height: auto;
 }
+
 .card-bottom {
   box-sizing: border-box;
   width: 250px;
   height: auto;
   padding: var(--space-medium);
   background-color: #f9e9e4;
-}
-.card-bottom img {
-  box-sizing: border-box;
-  height: 50px;
-  width: auto;
 }
