@@ -53,8 +53,7 @@ Open http://localhost:3000 to view it in the browser.
 ## Diagram
 
 The diagram/component tree of the project structure: 
-
-![a diagram showing the project structure](https://github.com/FeNatalia/todo-list-testing/blob/main/src/assets/diagram/ComponentTree.png)
+https://whimsical.com/componenttree-2frmTombyE2G59vBXrArhM
 
 ## Link
 
