@@ -1,5 +1,5 @@
 // Project files
-import Photo from "../assets/images/todoPhoto.jpg";
+import TodoPhoto from "../assets/images/todo.jpg";
 import ButtonAddItem from "../components/ButtonAddItem";
 
 export default function Instructions({ items, setItems }) {
@@ -12,8 +12,8 @@ export default function Instructions({ items, setItems }) {
       <div className="card">
         <div className="card-upper">
           <img
-            src={Photo}
-            alt="an orange couch with a pink pillow on it and a net with lemons"
+            src={TodoPhoto}
+            alt="a hand is holding a pen and writing todos on paper"
           />
         </div>
         <div className="card-bottom">
