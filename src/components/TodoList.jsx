@@ -22,9 +22,10 @@ export default function TodoList({ items, setItems }) {
 
   return (
     <div>
-      {UncompletedItems.length > 0 
-      ? (UncompletedItems) 
-      : (<p>No pending items to show</p>
+      {UncompletedItems.length > 0 ? (
+        UncompletedItems
+      ) : (
+        <p>No pending items to show</p>
       )}
     </div>
   );

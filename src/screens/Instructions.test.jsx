@@ -5,14 +5,12 @@ import { render, screen } from "@testing-library/react";
 import Instructions from "./Instructions";
 
 test("Expected to have a button for adding a todo item to the list", () => {
-    // Arrange
-    render(
-        <Instructions/>
-    );
+  // Arrange
+  render(<Instructions />);
 
-    // Assert
-    const buttonElement = screen.getByText(/add item/i);
+  // Assert
+  const buttonElement = screen.getByText(/add item/i);
 
-    // Act
-    expect(buttonElement).toBeInTheDocument();
+  // Act
+  expect(buttonElement).toBeInTheDocument();
 });

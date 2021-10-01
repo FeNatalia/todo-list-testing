@@ -12,7 +12,9 @@ export default function NormalScreen({ items, setItems }) {
   // Local state
   const [toggleCompletedList, setCompletedList] = useState(false);
 
-  const CompletedItems = items.filter((item) => item.isDone).map((item) => <TodoItem key={item.id} item={item} />);
+  const CompletedItems = items
+    .filter((item) => item.isDone)
+    .map((item) => <TodoItem key={item.id} item={item} />);
 
   return (
     <div className="main-page">
