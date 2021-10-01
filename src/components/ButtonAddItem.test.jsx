@@ -30,3 +30,18 @@ test("Expected to show Hide form text when toggleForm is true.", () => {
   // Assert
   expect(buttonElement).toBeInTheDocument(/hide form/i);
 });
+
+test("Expected to show Form (saying 'Add a new todo') when toggleForm is true.", () => {
+  // Arrange
+  const method = jest.fn();
+  const toggleForm = true;
+  render(<ButtonAddItem onClick={method} toggleForm={toggleForm} />);
+
+  // Act
+  const buttonElement = screen.getByText(/add item/i);
+  fireEvent.click(buttonElement);
+  const textElement = screen.getByText(/add a new todo/i);
+
+  // Assert
+  expect(textElement).toBeInTheDocument();
+});
