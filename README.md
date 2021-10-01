@@ -55,6 +55,10 @@ Open http://localhost:3000 to view it in the browser.
 The diagram/component tree of the project structure: 
 https://whimsical.com/componenttree-2frmTombyE2G59vBXrArhM
 
+## Figma
+
+The Figma design can be found on: https://www.figma.com/file/MKbpIQ087cberWJYxFTVTP/Todo-List?node-id=0%3A1
+
 ## Link
 
 ToDoApp is hosted on: https://todolist-nf.web.app
